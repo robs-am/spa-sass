@@ -1,3 +1,8 @@
 nav {
-    text-align: center;
+  text-align: center;
+  ul {
+    li {
+      display: inline-block;
+    }
+  }
 }

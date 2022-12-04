@@ -4,4 +4,7 @@ html, body {
 
 nav {
   text-align: center;
+}
+nav ul li {
+  display: inline-block;
 }/*# sourceMappingURL=styles.css.map */

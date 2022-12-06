@@ -21,6 +21,16 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
-  min-height: 350px;
+  background: url(../../imagens/banner.jpg) 100% no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.85;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F1E0AC;
+  opacity: 0.9;
 }/*# sourceMappingURL=styles.css.map */

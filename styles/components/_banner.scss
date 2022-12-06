@@ -1,0 +1,16 @@
+@import '../abstract/variaveis';
+
+.banner {
+  background: url(../../imagens/banner.jpg) 100% no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.85;
+  .inner-banner {
+    padding: 3rem;
+    background-color: $cor-terciaria;
+    opacity: 0.9;
+  }
+}

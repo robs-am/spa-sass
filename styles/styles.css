@@ -21,7 +21,7 @@ nav ul li a {
   color: #48512D;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #969889;
+  border-bottom: 2px solid #64655b;
   padding-bottom: 3px;
 }
 
@@ -30,15 +30,16 @@ nav ul li a:hover {
   min-height: 500px;
   background-size: cover;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  opacity: 0.9;
 }
 .banner .inner-banner {
   padding: 4em;
-  border: none;
+  border: 1px solid rgba(156, 155, 155, 0.103);
   background-color: #EEF2F7;
-  background: linear-gradient(rgba(190, 189, 189, 0.214), rgba(255, 255, 255, 0.423), rgba(189, 12, 12, 0));
+  background: linear-gradient(rgba(190, 189, 189, 0.312), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .banner h1 {
   font-size: 4rem;
@@ -46,7 +47,7 @@ nav ul li a:hover {
 }
 .banner h2 {
   font-size: 2rem;
-  color: #969889;
+  color: #64655b;
 }
 
 #servicos {
@@ -54,7 +55,7 @@ nav ul li a:hover {
 }
 #servicos h4 {
   font-size: 1.3636363636rem;
-  color: #969889;
+  color: #64655b;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
@@ -97,7 +98,7 @@ nav ul li a:hover {
 }
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
-  border-bottom: 6px solid #969889;
+  border-bottom: 6px solid #64655b;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
@@ -157,27 +158,33 @@ nav ul li a:hover {
   border-color: #a7d8bb;
 }
 
-#curiosidades h3 {
+#produtos h3 {
+  margin-top: 80px;
   font-size: 1.3636363636rem;
-  color: #969889;
+  color: #64655b;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
   margin: 1rem;
 }
-#curiosidades h4 {
+#produtos h4 {
   text-align: center;
   font-size: 2.3076923077rem;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   font-weight: 300;
   color: #48512D;
 }
-#curiosidades p {
+#produtos p {
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
   color: #48512D;
   line-height: 3rem;
+}
+#produtos .produto-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
 footer {

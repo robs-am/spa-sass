@@ -5,17 +5,18 @@
   min-height: 500px;
   background-size: cover;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items:center;
-  opacity: 0.9;
+ 
   .inner-banner {
     padding:4em;
-    border:none;
+    border:1px solid rgba(156, 155, 155, 0.103);
           
     
     background-color: $cor-terciaria;
-    background: linear-gradient(rgba(190, 189, 189, 0.214), rgba(255, 255, 255, 0.423), rgba(189, 12, 12, 0));
-    
+    background: linear-gradient(rgba(190, 189, 189, 0.312),rgba(255, 255, 255, 0.400), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
   }
     h1{

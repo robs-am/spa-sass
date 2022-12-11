@@ -3,7 +3,7 @@
 #servicos {
   margin: 80px;
   h4 {
-    font-size: $tamanho-do-texto / 2.5;
+    font-size: $tamanho-do-texto / 2.2;
     color: $cor-secundaria;
     text-transform: uppercase;
     font-weight: 400;
@@ -24,6 +24,7 @@
     .card {
       width:360px;
       text-align: center;
+      font-size: $tamanho-do-texto / 2.2;
       h5 {
         font-size: $tamanho-do-texto / 1.5;
         font-weight: 300;

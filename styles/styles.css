@@ -36,9 +36,9 @@ nav ul li a:hover {
 }
 .banner .inner-banner {
   padding: 4em;
+  border: none;
   background-color: #EEF2F7;
   background: linear-gradient(rgba(190, 189, 189, 0.214), rgba(255, 255, 255, 0.423), rgba(189, 12, 12, 0));
-  border-radius: 6px;
 }
 .banner h1 {
   font-size: 4rem;
@@ -53,7 +53,7 @@ nav ul li a:hover {
   margin: 80px;
 }
 #servicos h4 {
-  font-size: 1.2rem;
+  font-size: 1.3636363636rem;
   color: #969889;
   text-transform: uppercase;
   font-weight: 400;
@@ -74,6 +74,7 @@ nav ul li a:hover {
 #servicos .cards .card {
   width: 360px;
   text-align: center;
+  font-size: 1.3636363636rem;
 }
 #servicos .cards .card h5 {
   font-size: 2rem;
@@ -148,4 +149,35 @@ nav ul li a:hover {
 #cupom button:hover {
   background-color: #b3dac7;
   border-color: #a7d8bb;
+}
+
+#curiosidades h3 {
+  font-size: 1.3636363636rem;
+  color: #969889;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem;
+}
+#curiosidades h4 {
+  text-align: center;
+  font-size: 2.3076923077rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #48512D;
+}
+#curiosidades p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  color: #48512D;
+  line-height: 3rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #48512D;
+  margin-top: 1rem;
+  padding: 1.2rem;
 }/*# sourceMappingURL=styles.css.map */

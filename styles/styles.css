@@ -21,7 +21,7 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url(../../imagens/banner.jpg) 100% no-repeat;
+  background: url(../../imagens/spa.png) 100% no-repeat;
   min-height: 500px;
   background-size: cover;
   display: flex;

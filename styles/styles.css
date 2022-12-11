@@ -76,6 +76,12 @@ nav ul li a:hover {
   text-align: center;
   font-size: 1.3636363636rem;
 }
+#servicos .cards .card:hover {
+  transform: scale(1.03);
+  transition: 0.6s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 1rem;
+}
 #servicos .cards .card h5 {
   font-size: 2rem;
   font-weight: 300;

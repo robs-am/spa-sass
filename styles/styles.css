@@ -18,10 +18,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #495371;
+  color: #48512D;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #74959A;
+  border-bottom: 2px solid #969889;
   padding-bottom: 3px;
 }
 
@@ -42,11 +42,11 @@ nav ul li a:hover {
 }
 .banner h1 {
   font-size: 3rem;
-  color: #495371;
+  color: #48512D;
 }
 .banner h2 {
   font-size: 1.5rem;
-  color: #74959A;
+  color: #969889;
 }
 
 #servicos {
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 #servicos h4 {
   font-size: 1.2rem;
-  color: #74959A;
+  color: #969889;
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
@@ -79,18 +79,24 @@ nav ul li a:hover {
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 20px;
-  color: #495371;
+  color: #48512D;
 }
 #servicos .cards .card h5 p {
   font-size: 1rem;
   font-weight: 300;
-  color: #495371;
+  color: #48512D;
   line-height: 1.25rem;
 }
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
-  border-bottom: 6px solid #74959A;
+  border-bottom: 6px solid #969889;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
+}
+
+#cupom {
+  background-color: #EEF2F7;
+  padding: 4rem;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

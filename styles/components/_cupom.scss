@@ -34,4 +34,28 @@
         outline:none;
     }
   }
+  button {
+    text-transform: uppercase;
+    margin-top: .75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width:130px;
+    background-color: #c8e3d7;
+    border: 1px solid#d8e7cd;
+    color:$cor-primaria;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+    &:hover {
+        background-color:#b3dac7;
+        border-color:#a7d8bb;
+    }
+
+
+
+
+}
 }

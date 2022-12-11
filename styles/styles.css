@@ -128,4 +128,24 @@ nav ul li a:hover {
 #cupom .input:hover, #cupom .input:focus-within {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #c8e3d7;
+  border: 1px solid #d8e7cd;
+  color: #48512D;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  background-color: #b3dac7;
+  border-color: #a7d8bb;
 }/*# sourceMappingURL=styles.css.map */

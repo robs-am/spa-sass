@@ -28,8 +28,8 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url(../../imagens/spa.png) 100% no-repeat;
-  min-height: 500px;
+  background: url(../../imagens/banner3.jpg) 100% no-repeat;
+  min-height: 400px;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -85,7 +85,7 @@ nav ul li a:hover {
   border: 1px solid rgba(255, 255, 255, 0.342);
 }
 #servicos .cards .card:hover {
-  transform: scale(1.01);
+  transform: scale(1.003);
   transition: 0.6s ease-in-out 100ms;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-bottom-left-radius: 0.3rem;
@@ -99,7 +99,7 @@ nav ul li a:hover {
   color: #566134;
 }
 #servicos .cards .card p {
-  font-size: 1.5rem;
+  font-size: 1.3636363636rem;
   font-weight: 300;
   color: #64655b;
   line-height: 2rem;
@@ -201,4 +201,14 @@ footer {
   border-top: 2px solid #566134;
   margin-top: 1rem;
   padding: 1.2rem;
+}
+
+.swipper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

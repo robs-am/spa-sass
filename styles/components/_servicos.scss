@@ -33,7 +33,7 @@
       font-size: $tamanho-do-texto / 2.2;
       border: 1px solid rgba(255, 255, 255, 0.342);
       &:hover {
-        transform: scale(1.01);
+        transform: scale(1.003);
         transition: 0.6s ease-in-out 100ms;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-bottom-left-radius: 0.3rem;
@@ -47,7 +47,7 @@
         color: $cor-primaria;
       }
         p {
-          font-size: $tamanho-do-texto / 2;
+          font-size: $tamanho-do-texto / 2.2;
           font-weight: 300;
           color: $cor-secundaria;
           line-height: 2rem;

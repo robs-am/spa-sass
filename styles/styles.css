@@ -191,8 +191,18 @@ nav ul li a:hover {
 }
 #produtos .produto-container {
   display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
   margin-bottom: 80px;
+}
+#produtos .produto-container .swipper {
+  margin: 0;
+  padding: 0;
+}
+#produtos .produto-container .swipper .slides {
+  overflow: hidden;
 }
 
 footer {
@@ -209,6 +219,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
+  margin-block: 40px;
+}
+.swipper .slides {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 800px;
+  height: 427px;
 }/*# sourceMappingURL=styles.css.map */

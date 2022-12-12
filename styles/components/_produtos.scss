@@ -16,7 +16,6 @@
     margin-bottom: 20px;
     font-weight: 300;
     color: $cor-primaria;
-    
   }
 
   p {
@@ -28,8 +27,22 @@
   }
   .produto-container {
     display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 80px;
-    
+
+    .swipper {
+      margin: 0;
+      padding: 0;
+     
+
+      .slides {
+        
+        overflow: hidden;
+        
+      }
+    }
   }
 }

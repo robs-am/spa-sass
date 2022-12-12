@@ -1,5 +1,6 @@
 html, body {
   font-family: "EB Garamond", sans-serif;
+  background: #f6f7f6;
 }
 
 nav {
@@ -18,11 +19,12 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #48512D;
+  color: #566134;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #64655b;
   padding-bottom: 3px;
+  transition: 0.2s ease-in-out;
 }
 
 .banner {
@@ -36,14 +38,14 @@ nav ul li a:hover {
 .banner .inner-banner {
   padding: 4em;
   border: 1px solid rgba(156, 155, 155, 0.103);
-  background-color: #EEF2F7;
+  background-color: #e9f1ec;
   background: linear-gradient(rgba(190, 189, 189, 0.312), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 .banner h1 {
   font-size: 4rem;
-  color: #48512D;
+  color: #566134;
 }
 .banner h2 {
   font-size: 2rem;
@@ -66,51 +68,57 @@ nav ul li a:hover {
   font-size: 2.3076923077rem;
   margin-bottom: 80px;
   font-weight: 300;
-  color: #48512D;
+  color: #566134;
 }
 #servicos .cards {
   display: flex;
   justify-content: space-evenly;
+  background-color: rgba(238, 249, 243, 0.5764705882);
+  gap: 3rem;
+  width: 100%;
 }
 #servicos .cards .card {
-  width: 360px;
+  width: 400px;
   text-align: center;
+  padding-bottom: 1.5rem;
   font-size: 1.3636363636rem;
+  border: 1px solid rgba(255, 255, 255, 0.342);
 }
 #servicos .cards .card:hover {
-  transform: scale(1.03);
-  transition: 0.6s ease-in-out;
+  transform: scale(1.01);
+  transition: 0.6s ease-in-out 100ms;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border-radius: 1rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
 }
 #servicos .cards .card h5 {
   font-size: 2rem;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 20px;
-  color: #48512D;
+  color: #566134;
 }
-#servicos .cards .card h5 p {
-  font-size: 1rem;
+#servicos .cards .card p {
+  font-size: 1.5rem;
   font-weight: 300;
-  color: #48512D;
-  line-height: 3rem;
+  color: #64655b;
+  line-height: 2rem;
 }
 #servicos .cards .card .img-container {
-  padding-bottom: 2px;
-  border-bottom: 6px solid #64655b;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #64655b;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
 }
 
 #cupom {
-  background-color: #EEF2F7;
+  background-color: #e9f1ec;
   padding: 4rem;
   text-align: center;
 }
 #cupom .texto {
-  color: #48512D;
+  color: #566134;
 }
 #cupom .texto h2 {
   margin: 2rem;
@@ -146,7 +154,7 @@ nav ul li a:hover {
   width: 130px;
   background-color: #c8e3d7;
   border: 1px solid #d8e7cd;
-  color: #48512D;
+  color: #566134;
   letter-spacing: 1px;
   font-size: 12px;
   font-weight: bold;
@@ -172,13 +180,13 @@ nav ul li a:hover {
   font-size: 2.3076923077rem;
   margin-bottom: 20px;
   font-weight: 300;
-  color: #48512D;
+  color: #566134;
 }
 #produtos p {
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
-  color: #48512D;
+  color: #566134;
   line-height: 3rem;
 }
 #produtos .produto-container {
@@ -190,7 +198,7 @@ nav ul li a:hover {
 footer {
   text-align: center;
   font-size: 1.5rem;
-  border-top: 2px solid #48512D;
+  border-top: 2px solid #566134;
   margin-top: 1rem;
   padding: 1.2rem;
 }/*# sourceMappingURL=styles.css.map */

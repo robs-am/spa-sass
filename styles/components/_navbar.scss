@@ -25,6 +25,7 @@ nav {
         &:hover {
           border-bottom: 2px solid $cor-secundaria;
           padding-bottom: 3px;
+          transition: .2s ease-in-out;
         }
       }
     }

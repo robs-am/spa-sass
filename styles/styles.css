@@ -197,6 +197,19 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
+#produtos .images {
+  width: 600px;
+  height: 427px;
+  overflow: hidden;
+  position: relative;
+}
+#produtos .images .glide__bullets {
+  position: absolute;
+  color: #000;
+  bottom: 5%;
+  left: 45%;
+  padding: 5px;
+}
 
 footer {
   text-align: center;
@@ -204,27 +217,4 @@ footer {
   border-top: 2px solid #566134;
   margin-top: 1rem;
   padding: 1.2rem;
-}
-
-.swipper {
-  margin: 0;
-  padding: 0;
-}
-.swipper .slides {
-  width: 600px;
-  height: 427px;
-  overflow: hidden;
-}
-.swipper .slides .slide {
-  position: relative;
-}
-.swipper .slides .manual-navigation {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-.swipper .slides input {
-  display: none;
 }/*# sourceMappingURL=styles.css.map */

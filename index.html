@@ -6,19 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SPA NATURAL</title>
+  <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
     rel="stylesheet">
-
+  <!-- Icones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-  <link rel="stylesheet" href="/styles/styles.css" />
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <!-- Glider.js -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide">
 
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="/styles/styles.css" />
+
 </head>
 
 <body>
@@ -92,44 +96,18 @@
         velas para presentear você mesmo ou quem você ama.
       </p>
 
-      <div class="swipper">
-        <!--  Slides -->
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <!--  Slides -->
-
-          <!-- Imagens -->
-          <div class="slide first">
-            <img src="/imagens/produto-1.jpg" />
-          </div>
-          <div class="slide second">
-            <img src="/imagens/produto-2.jpg" />
-          </div>
-          <div class="slide third">
-            <img src="/imagens/produto-3.jpg" />
-          </div>
-          <div class="slide quatro">
-            <img src="/imagens/interior-3.jpeg" />
-          </div>
-
-          <!-- Imagens -->
-          <!-- Navegação -->
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
-
-          <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-          </div>
+      <div class="images">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="/imagens/produto-1.jpg" /></li>
+            <li class="glide__slide"><img src="/imagens/produto-2.jpg" /></li>
+            <li class="glide__slide"><img src="/imagens/produto-3.jpg" /></li>
+          </ul>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
         </div>
       </div>
 
@@ -152,9 +130,13 @@
     </section>
 
   </main>
-  <footer>Estilizado com Sass e com <i class="fas fa-heart"></i></footer>
+  <footer>Estilizado com Sass</footer>
 
-  <script src="./main.js"></script>
+
+  <script>
+    new Glide('.images', {}).mount();
+  </script>
+
 </body>
 
 </html>

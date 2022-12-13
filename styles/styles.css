@@ -197,13 +197,6 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
-#produtos .produto-container .swipper {
-  margin: 0;
-  padding: 0;
-}
-#produtos .produto-container .swipper .slides {
-  overflow: hidden;
-}
 
 footer {
   text-align: center;
@@ -216,14 +209,22 @@ footer {
 .swipper {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-block: 40px;
 }
 .swipper .slides {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 800px;
+  width: 600px;
   height: 427px;
+  overflow: hidden;
+}
+.swipper .slides .slide {
+  position: relative;
+}
+.swipper .slides .manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.swipper .slides input {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */

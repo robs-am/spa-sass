@@ -1,24 +1,25 @@
 .swipper {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block: 40px;
-    
-    
-    
-    
-    
+  margin: 0;
+  padding: 0;
 
-    .slides {
-        margin: 0 auto;
-        overflow: hidden;
-        width: 800px;
-        height: 427px;
-        
-        
+  .slides {
+    width: 600px;
+    height: 427px;
+    overflow: hidden;
+
+    .slide {
+      position: relative;
     }
-    
 
+    .manual-navigation {
+        position:absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  .slides input {
+    display: none;
+  }
 }

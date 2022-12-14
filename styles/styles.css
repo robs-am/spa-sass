@@ -197,18 +197,26 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
-#produtos .images {
-  width: 600px;
-  height: 427px;
-  overflow: hidden;
-  position: relative;
+#produtos .glide__slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw !important;
 }
-#produtos .images .glide__bullets {
+#produtos .glide__slides .glide__slide {
+  position: relative;
+  width: 640px;
+  height: 427px;
+}
+#produtos .glide__slides .glide__bullets {
   position: absolute;
   color: #000;
-  bottom: 5%;
-  left: 45%;
+  bottom: 20%;
+  left: 65%;
   padding: 5px;
+}
+#produtos .glide__slides .glide__bullets .glide__bullet {
+  width: 40px;
 }
 
 footer {

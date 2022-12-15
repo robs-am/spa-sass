@@ -1,6 +1,7 @@
 html, body {
   font-family: "EB Garamond", sans-serif;
   background: #f6f7f6;
+  width: 100vw;
 }
 
 nav {
@@ -197,24 +198,22 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
-#produtos .images {
-  position: relative;
-  width: 640px;
-  height: 427px;
-}
-#produtos .images .glide__slides {
+#produtos .glide__slides {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#produtos .images .glide__slides .glide__bullets {
+#produtos .glide__slides .glide__slide {
+  width: 427px;
+}
+#produtos .glide__slides .glide__bullets {
   position: absolute;
   color: #000;
   bottom: 0;
   left: 65%;
   padding: 5px;
 }
-#produtos .images .glide__slides .glide__bullets .glide__bullet {
+#produtos .glide__slides .glide__bullets .glide__bullet {
   width: 40px;
 }
 

@@ -33,19 +33,18 @@
     justify-content: center;
     margin-bottom: 80px;
   }
-  .images {
-    position: relative;
-    width: 640px;
-    height: 427px;
+  
+  .glide__slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    .glide__slides {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    //width: 100vw !important;
 
-      
-
-      
+   
+      .glide__slide{
+        width:427px;
+      }
       .glide__bullets {
         position: absolute;
         color: #000;
@@ -58,4 +57,4 @@
       }
     }
   }
-}
+

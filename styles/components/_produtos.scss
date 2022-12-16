@@ -32,5 +32,22 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 80px;
+
+    .img-slider {
+      position: relative;
+      width: 800px;
+      height: 500px;
+
+      .slide {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+
+        img {
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
   }
 }

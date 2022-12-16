@@ -198,6 +198,20 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
+#produtos .produto-container .img-slider {
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
+#produtos .produto-container .img-slider .slide {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+#produtos .produto-container .img-slider .slide img {
+  width: 100%;
+  border-radius: 5px;
+}
 
 footer {
   text-align: center;

@@ -198,24 +198,6 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 80px;
 }
-#produtos .glide__slides {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#produtos .glide__slides .glide__slide {
-  width: 427px;
-}
-#produtos .glide__slides .glide__bullets {
-  position: absolute;
-  color: #000;
-  bottom: 0;
-  left: 65%;
-  padding: 5px;
-}
-#produtos .glide__slides .glide__bullets .glide__bullet {
-  width: 40px;
-}
 
 footer {
   text-align: center;

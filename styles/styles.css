@@ -190,27 +190,21 @@ nav ul li a:hover {
   color: #566134;
   line-height: 3rem;
 }
-#produtos .produto-container {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-#produtos .produto-container .img-slider {
+#produtos .img-slider {
   position: relative;
   width: 800px;
   height: 500px;
 }
-#produtos .produto-container .img-slider .slide {
+#produtos .img-slider .slide {
   z-index: 1;
   position: absolute;
   width: 100%;
 }
-#produtos .produto-container .img-slider .slide img {
+#produtos .img-slider .slide .produtoImagem {
   width: 100%;
-  border-radius: 5px;
+}
+#produtos .img-slider .slide .produtoImagem img {
+  border-radius: 10px;
 }
 
 footer {

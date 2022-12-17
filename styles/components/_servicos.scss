@@ -22,12 +22,12 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #eef9f393;
-    
+
     gap: 3rem;
-    width:100%;
+    width: 100%;
 
     .card {
-      width:400px;
+      width: 400px;
       text-align: center;
       padding-bottom: 1.5rem;
       font-size: $tamanho-do-texto / 2.2;
@@ -37,10 +37,8 @@
       border-bottom-right-radius: 0.3rem;
 
       &:hover {
-        
         transition: 0.6s ease-in-out 100ms;
         box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
-        
       }
       h5 {
         font-size: $tamanho-do-texto / 1.5;
@@ -49,25 +47,21 @@
         margin-bottom: 20px;
         color: $cor-primaria;
       }
-        p {
-          font-size: $tamanho-do-texto / 2.2;
-          font-weight: 300;
-          color: $cor-secundaria;
-          line-height: 2rem;
-          
-        }
-      
+      p {
+        font-size: $tamanho-do-texto / 2.2;
+        font-weight: 300;
+        color: $cor-secundaria;
+        line-height: 2rem;
+      }
+
       .img-container {
         padding-bottom: 3px;
         border-bottom: 2px solid $cor-secundaria;
-        img{
+        img {
           max-width: 100%;
         }
-        
       }
     }
-
-
   }
 }
 
@@ -80,7 +74,6 @@
       margin-bottom: 80px;
       font-weight: 300;
       color: $cor-primaria;
-      
     }
     h4 {
       font-size: $tamanho-do-texto / 2.2;
@@ -90,20 +83,19 @@
       text-align: center;
       margin: 1rem;
     }
-    
-  
+
     .cards {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       flex-direction: column;
       background-color: #eef9f393;
-      
+
       gap: 3rem;
-      width:100%;
-  
+      width: 100%;
+
       .card {
-        width:300px;
+        width: 350px;
         text-align: center;
         padding-bottom: 1.5rem;
         font-size: $tamanho-do-texto / 2.7;
@@ -111,12 +103,10 @@
         box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
         border-bottom-left-radius: 0.3rem;
         border-bottom-right-radius: 0.3rem;
-  
+
         &:hover {
-          
           transition: 0.6s ease-in-out 100ms;
           box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
-          
         }
         h5 {
           font-size: $tamanho-do-texto / 1.5;
@@ -125,25 +115,21 @@
           margin-bottom: 20px;
           color: $cor-primaria;
         }
-          p {
-            font-size: $tamanho-do-texto / 2.2;
-            font-weight: 300;
-            color: $cor-secundaria;
-            line-height: 2rem;
-            
-          }
-        
+        p {
+          font-size: $tamanho-do-texto / 2.2;
+          font-weight: 300;
+          color: $cor-secundaria;
+          line-height: 2rem;
+        }
+
         .img-container {
           padding-bottom: 3px;
           border-bottom: 2px solid $cor-secundaria;
-          img{
+          img {
             max-width: 100%;
           }
-          
         }
       }
-  
-  
     }
-}
+  }
 }

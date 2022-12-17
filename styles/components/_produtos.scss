@@ -8,7 +8,14 @@
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
+    border-bottom: 1px solid $cor-primaria;
+    padding:1rem;
     margin: 1rem;
+      hr {
+         
+        border-top:1px solid black;
+        }
+      }
   }
   h4 {
     text-align: center;
@@ -25,7 +32,7 @@
     color: $cor-primaria;
     line-height: 2rem;
   }
-}
+
 .img-slider-wrapper {
   display: flex;
   align-items: center;
@@ -62,7 +69,7 @@
           font-weight: 600;
           letter-spacing: 3px;
         }
-        .slide-p {
+        .produto-p {
           color: $cor-terciaria !important;
           background: rgba(0, 0, 0, 0.1) !important;
           font-size: 20px !important;
@@ -102,6 +109,7 @@
       text-transform: uppercase;
       font-weight: 400;
       text-align: center;
+      
       margin: 1.5rem;
       
     }
@@ -117,7 +125,8 @@
       font-size: $tamanho-do-texto / 2;
       line-height: 2rem;
       color: $cor-secundaria;
-      margin-inline: 2rem;
+      margin-inline:1rem;
+      text-align: center;
       
     }
   
@@ -143,13 +152,14 @@
           
 
           .info {
-            padding: 10px 15px;
+            padding: 8px 15px;
             h2 {
               font-size: 30px;
             }
             .slide-p {
               width: 60%;
               font-size: 15px;
+              text-align: left;
             }
           }
         }
@@ -157,7 +167,7 @@
           z-index: 2;
           position: absolute;
           display: flex;
-          bottom: 25%;
+          bottom: 15%;
           //left: 50%;
           transform: translateX(-50%);
           .btn {

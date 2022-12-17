@@ -36,7 +36,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 70px;
+    width: 500px;
+    height:500px;
     
 
     .slide {
@@ -99,22 +100,21 @@
       font-size: $tamanho-do-texto / 2.0;
       color: $cor-secundaria;
       text-transform: uppercase;
-      
+      font-weight: 400;
       text-align: center;
       margin: 1.5rem;
       
     }
     h4 {
       text-align: center;
-      list-style-type: 2.2rem;
-      font-size: $tamanho-do-texto / 2;
+      font-size: $tamanho-do-texto / 1.9;
       margin-bottom: 15px;
       margin-inline: 2rem;
-      font-weight: 200;
+      font-weight: 300;
     }
 
     p {
-      font-size: $tamanho-do-texto / 2.2;
+      font-size: $tamanho-do-texto / 2;
       line-height: 2rem;
       color: $cor-secundaria;
       margin-inline: 2rem;
@@ -127,7 +127,7 @@
     
 
       .img-slider {
-        
+        width:500px;
         height:400px;
         position:relative;
 
@@ -137,7 +137,7 @@
                        
             
             img {
-                width: 350px;
+                width: 375px;
                 height:300px;
             }
           

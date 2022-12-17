@@ -337,7 +337,8 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 70px;
+  width: 500px;
+  height: 500px;
 }
 .img-slider-wrapper .img-slider .slide {
   z-index: 1;
@@ -392,19 +393,19 @@ nav ul li a:hover {
     font-size: 1.5rem;
     color: #64655b;
     text-transform: uppercase;
+    font-weight: 400;
     text-align: center;
     margin: 1.5rem;
   }
   #produtos h4 {
     text-align: center;
-    list-style-type: 2.2rem;
-    font-size: 1.5rem;
+    font-size: 1.5789473684rem;
     margin-bottom: 15px;
     margin-inline: 2rem;
-    font-weight: 200;
+    font-weight: 300;
   }
   #produtos p {
-    font-size: 1.3636363636rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     color: #64655b;
     margin-inline: 2rem;
@@ -413,6 +414,7 @@ nav ul li a:hover {
     max-width: 100%;
   }
   #produtos .img-slider-wrapper .img-slider {
+    width: 500px;
     height: 400px;
     position: relative;
   }
@@ -421,7 +423,7 @@ nav ul li a:hover {
     position: absolute;
   }
   #produtos .img-slider-wrapper .img-slider .slide img {
-    width: 350px;
+    width: 375px;
     height: 300px;
   }
   #produtos .img-slider-wrapper .img-slider .slide .info {

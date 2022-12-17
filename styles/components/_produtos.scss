@@ -2,7 +2,7 @@
 
 #produtos {
   h3 {
-    margin-top: 80px;
+    margin-top: 70px;
     font-size: $tamanho-do-texto / 2.2;
     color: $cor-secundaria;
     text-transform: uppercase;
@@ -19,11 +19,11 @@
   }
 
   p {
-    font-size: $tamanho-do-texto / 3;
+    font-size: $tamanho-do-texto / 2.5;
     text-align: center;
     font-weight: 300;
     color: $cor-primaria;
-    line-height: 3rem;
+    line-height: 2rem;
   }
 }
 .img-slider-wrapper {
@@ -36,17 +36,18 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 70px;
+    
 
     .slide {
       z-index: 1;
       position: absolute;
-      width: 600px;
-      height: 427px;
+      
       .img {
+        max-width: 100%;
         width: 100%;
         border-radius: 10px;
+        height: auto !important
       }
       .info {
         position: absolute;
@@ -66,25 +67,109 @@
           font-size: 20px !important;
           padding: 10px !important;
           text-align: left !important;
+          
         }
       }
     }
 
     .navigation {
-      z-index:2;
+      z-index: 2;
       position: absolute;
       display: flex;
       bottom: 40px;
-      left:50%;
+      left: 50%;
       transform: translateX(-50%);
-        .btn{
-          background: rgba(255,255,255,0.5);
-          width:12px;
-          height:12px;
-          margin:10px;
-          border-radius: 50%;
-          cursor: pointer;
+      .btn {
+        background: rgba(255, 255, 255, 0.5);
+        width: 12px;
+        height: 12px;
+        margin: 10px;
+        border-radius: 50%;
+        
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #produtos {
+    h3 {
+      margin-top: 80px;
+      font-size: $tamanho-do-texto / 2.0;
+      color: $cor-secundaria;
+      text-transform: uppercase;
+      
+      text-align: center;
+      margin: 1.5rem;
+      
+    }
+    h4 {
+      text-align: center;
+      list-style-type: 2.2rem;
+      font-size: $tamanho-do-texto / 2;
+      margin-bottom: 15px;
+      margin-inline: 2rem;
+      font-weight: 200;
+    }
+
+    p {
+      font-size: $tamanho-do-texto / 2.2;
+      line-height: 2rem;
+      color: $cor-secundaria;
+      margin-inline: 2rem;
+      
+    }
+  
+  
+  .img-slider-wrapper {
+    max-width:100%;
+    
+
+      .img-slider {
+        
+        height:400px;
+        position:relative;
+
+        .slide {
+          z-index: 1;
+          position: absolute;
+                       
+            
+            img {
+                width: 350px;
+                height:300px;
+            }
+          
+
+          .info {
+            padding: 10px 15px;
+            h2 {
+              font-size: 30px;
+            }
+            .slide-p {
+              width: 60%;
+              font-size: 15px;
+            }
+          }
         }
+        .navigation {
+          z-index: 2;
+          position: absolute;
+          display: flex;
+          bottom: 25%;
+          //left: 50%;
+          transform: translateX(-50%);
+          .btn {
+            background: rgba(255, 255, 255, 0.5);
+            width: 12px;
+            height: 12px;
+            margin: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+        }
+      }
     }
   }
 }

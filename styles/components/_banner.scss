@@ -27,4 +27,34 @@
         font-size: 2rem;
         color: $cor-secundaria;
     }
+
+}
+
+@media (max-width: 480px) {
+  .banner {
+    background: url(../../imagens/banner3.jpg) 100% no-repeat;
+    min-height: 200px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+    .inner-banner {
+      padding:1em;
+      border:1px solid rgba(156, 155, 155, 0.103);
+            
+         
+      
+    }
+      h1{
+          font-size: 2rem;
+          
+      }
+      h2{
+          font-size: 1rem;
+          color: $cor-secundaria;
+      }
+  
+  }
+  
 }

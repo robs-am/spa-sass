@@ -190,21 +190,34 @@ nav ul li a:hover {
   color: #566134;
   line-height: 3rem;
 }
-#produtos .img-slider {
+#produtos .img-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#produtos .img-slider-wrapper .img-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   width: 800px;
   height: 500px;
 }
-#produtos .img-slider .slide {
+#produtos .img-slider-wrapper .img-slider .slide {
   z-index: 1;
   position: absolute;
-  width: 100%;
+  width: 600px;
+  height: 427px;
 }
-#produtos .img-slider .slide .produtoImagem {
+#produtos .img-slider-wrapper .img-slider .slide .img {
   width: 100%;
-}
-#produtos .img-slider .slide .produtoImagem img {
   border-radius: 10px;
+}
+#produtos .img-slider-wrapper .img-slider .slide .info {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 15px 30px;
 }
 
 footer {

@@ -84,13 +84,13 @@ nav ul li a:hover {
   padding-bottom: 1.5rem;
   font-size: 1.3636363636rem;
   border: 1px solid rgba(255, 255, 255, 0.342);
-}
-#servicos .cards .card:hover {
-  transform: scale(1.003);
-  transition: 0.6s ease-in-out 100ms;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
+}
+#servicos .cards .card:hover {
+  transition: 0.6s ease-in-out 100ms;
+  box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
 }
 #servicos .cards .card h5 {
   font-size: 2rem;
@@ -106,7 +106,7 @@ nav ul li a:hover {
   line-height: 2rem;
 }
 #servicos .cards .card .img-container {
-  padding-bottom: 4px;
+  padding-bottom: 3px;
   border-bottom: 2px solid #64655b;
 }
 #servicos .cards .card .img-container img {

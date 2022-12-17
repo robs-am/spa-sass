@@ -32,12 +32,15 @@
       padding-bottom: 1.5rem;
       font-size: $tamanho-do-texto / 2.2;
       border: 1px solid rgba(255, 255, 255, 0.342);
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
+      border-bottom-left-radius: 0.3rem;
+      border-bottom-right-radius: 0.3rem;
+
       &:hover {
-        transform: scale(1.003);
+        
         transition: 0.6s ease-in-out 100ms;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        border-bottom-left-radius: 0.3rem;
-        border-bottom-right-radius: 0.3rem;
+        box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
+        
       }
       h5 {
         font-size: $tamanho-do-texto / 1.5;
@@ -55,7 +58,7 @@
         }
       
       .img-container {
-        padding-bottom: 4px;
+        padding-bottom: 3px;
         border-bottom: 2px solid $cor-secundaria;
         img{
           max-width: 100%;

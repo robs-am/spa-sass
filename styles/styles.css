@@ -53,6 +53,27 @@ nav ul li a:hover {
   color: #64655b;
 }
 
+@media (max-width: 480px) {
+  .banner {
+    background: url(../../imagens/banner3.jpg) 100% no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .inner-banner {
+    padding: 1em;
+    border: 1px solid rgba(156, 155, 155, 0.103);
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner h2 {
+    font-size: 1rem;
+    color: #64655b;
+  }
+}
 #servicos {
   margin: 80px;
 }
@@ -66,7 +87,7 @@ nav ul li a:hover {
 }
 #servicos h3 {
   text-align: center;
-  font-size: 2.3076923077rem;
+  font-size: 1.6666666667rem;
   margin-bottom: 80px;
   font-weight: 300;
   color: #566134;
@@ -84,13 +105,13 @@ nav ul li a:hover {
   padding-bottom: 1.5rem;
   font-size: 1.3636363636rem;
   border: 1px solid rgba(255, 255, 255, 0.342);
-}
-#servicos .cards .card:hover {
-  transform: scale(1.003);
-  transition: 0.6s ease-in-out 100ms;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
+}
+#servicos .cards .card:hover {
+  transition: 0.6s ease-in-out 100ms;
+  box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
 }
 #servicos .cards .card h5 {
   font-size: 2rem;
@@ -106,13 +127,76 @@ nav ul li a:hover {
   line-height: 2rem;
 }
 #servicos .cards .card .img-container {
-  padding-bottom: 4px;
+  padding-bottom: 3px;
   border-bottom: 2px solid #64655b;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
 }
 
+@media (max-width: 480px) {
+  #servicos {
+    margin: 50px;
+  }
+  #servicos h3 {
+    text-align: center;
+    font-size: 1.6666666667rem;
+    margin-bottom: 80px;
+    font-weight: 300;
+    color: #566134;
+  }
+  #servicos h4 {
+    font-size: 1.3636363636rem;
+    color: #64655b;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem;
+  }
+  #servicos .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(238, 249, 243, 0.5764705882);
+    gap: 3rem;
+    width: 100%;
+  }
+  #servicos .cards .card {
+    width: 350px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 1.1111111111rem;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+  #servicos .cards .card:hover {
+    transition: 0.6s ease-in-out 100ms;
+    box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
+  }
+  #servicos .cards .card h5 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #566134;
+  }
+  #servicos .cards .card p {
+    font-size: 1.3636363636rem;
+    font-weight: 300;
+    color: #64655b;
+    line-height: 2rem;
+  }
+  #servicos .cards .card .img-container {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #64655b;
+  }
+  #servicos .cards .card .img-container img {
+    max-width: 100%;
+  }
+}
 #cupom {
   background-color: #e9f1ec;
   padding: 4rem;
@@ -167,46 +251,216 @@ nav ul li a:hover {
   border-color: #a7d8bb;
 }
 
+@media (max-width: 480px) {
+  #cupom {
+    background-color: #e9f1ec;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  #cupom .texto h2 {
+    margin-block: 2rem;
+    font-size: 1.5rem;
+  }
+  #cupom .input {
+    margin: 0 auto;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border: 4px solid white;
+  }
+  #cupom .input input {
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    width: 250px;
+    outline: none;
+    text-align: center;
+    font-size: 26px;
+  }
+  #cupom .input:hover, #cupom .input:focus-within {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    outline: none;
+  }
+  #cupom button {
+    text-transform: uppercase;
+    margin-block: 0.75rem;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    background-color: #c8e3d7;
+    border: 1px solid #d8e7cd;
+    color: #566134;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  #cupom button:hover {
+    background-color: #b3dac7;
+    border-color: #a7d8bb;
+  }
+}
 #produtos h3 {
-  margin-top: 80px;
+  margin-top: 70px;
   font-size: 1.3636363636rem;
   color: #64655b;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
+  border-bottom: 1px solid #566134;
+  padding: 1rem;
   margin: 1rem;
 }
-#produtos h4 {
+#produtos h3 hr {
+  border-top: 1px solid black;
+}
+
+h4 {
   text-align: center;
   font-size: 2.3076923077rem;
   margin-bottom: 20px;
   font-weight: 300;
   color: #566134;
 }
-#produtos p {
-  font-size: 1rem;
+
+p {
+  font-size: 1.2rem;
   text-align: center;
   font-weight: 300;
   color: #566134;
-  line-height: 3rem;
-}
-#produtos .img-slider {
-  position: relative;
-  width: 800px;
-  height: 500px;
-}
-#produtos .img-slider .slide {
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-}
-#produtos .img-slider .slide .produtoImagem {
-  width: 100%;
-}
-#produtos .img-slider .slide .produtoImagem img {
-  border-radius: 10px;
+  line-height: 2rem;
 }
 
+.img-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-slider-wrapper .img-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.img-slider-wrapper .img-slider .slide {
+  z-index: 1;
+  position: absolute;
+}
+.img-slider-wrapper .img-slider .slide .img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  height: auto !important;
+}
+.img-slider-wrapper .img-slider .slide .info {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 15px 30px;
+}
+.img-slider-wrapper .img-slider .slide .info h2 {
+  color: #e9f1ec;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.img-slider-wrapper .img-slider .slide .info .produto-p {
+  color: #e9f1ec !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  font-size: 20px !important;
+  padding: 10px !important;
+  text-align: left !important;
+}
+.img-slider-wrapper .img-slider .navigation {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.img-slider-wrapper .img-slider .navigation .btn {
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  #produtos h3 {
+    margin-top: 80px;
+    font-size: 1.5rem;
+    color: #64655b;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin: 1.5rem;
+  }
+  #produtos h4 {
+    text-align: center;
+    font-size: 1.5789473684rem;
+    margin-bottom: 15px;
+    margin-inline: 2rem;
+    font-weight: 300;
+  }
+  #produtos p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #64655b;
+    margin-inline: 1rem;
+    text-align: center;
+  }
+  #produtos .img-slider-wrapper {
+    max-width: 100%;
+  }
+  #produtos .img-slider-wrapper .img-slider {
+    width: 500px;
+    height: 400px;
+    position: relative;
+  }
+  #produtos .img-slider-wrapper .img-slider .slide {
+    z-index: 1;
+    position: absolute;
+  }
+  #produtos .img-slider-wrapper .img-slider .slide img {
+    width: 375px;
+    height: 300px;
+  }
+  #produtos .img-slider-wrapper .img-slider .slide .info {
+    padding: 8px 15px;
+  }
+  #produtos .img-slider-wrapper .img-slider .slide .info h2 {
+    font-size: 30px;
+  }
+  #produtos .img-slider-wrapper .img-slider .slide .info .slide-p {
+    width: 60%;
+    font-size: 15px;
+    text-align: left;
+  }
+  #produtos .img-slider-wrapper .img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 15%;
+    transform: translateX(-50%);
+  }
+  #produtos .img-slider-wrapper .img-slider .navigation .btn {
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
 footer {
   text-align: center;
   font-size: 1.5rem;

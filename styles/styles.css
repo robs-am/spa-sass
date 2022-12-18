@@ -94,17 +94,15 @@ nav ul li a:hover {
 }
 #servicos .cards {
   display: flex;
-  justify-content: space-evenly;
-  background-color: rgba(238, 249, 243, 0.5764705882);
-  gap: 3rem;
+  justify-content: center;
+  gap: 35px;
   width: 100%;
 }
 #servicos .cards .card {
-  width: 400px;
+  width: 350px;
   text-align: center;
   padding-bottom: 1.5rem;
   font-size: 1.3636363636rem;
-  border: 1px solid rgba(255, 255, 255, 0.342);
   box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
@@ -114,17 +112,21 @@ nav ul li a:hover {
   box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
 }
 #servicos .cards .card h5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
   margin-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #566134;
+  text-align: left;
+  padding-inline: 2rem;
 }
 #servicos .cards .card p {
-  font-size: 1.3636363636rem;
+  font-size: 1.0714285714rem;
   font-weight: 300;
   color: #64655b;
   line-height: 2rem;
+  padding-inline: 2rem;
+  text-align: left;
 }
 #servicos .cards .card .img-container {
   padding-bottom: 3px;
@@ -158,7 +160,6 @@ nav ul li a:hover {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(238, 249, 243, 0.5764705882);
     gap: 3rem;
     width: 100%;
   }

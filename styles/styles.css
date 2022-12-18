@@ -129,7 +129,7 @@ nav ul li a:hover {
   padding-inline: 2rem;
 }
 #servicos .cards .card p {
-  font-size: 1.0714285714rem;
+  font-size: 1.3043478261rem;
   font-weight: 300;
   color: #64655b;
   line-height: 2rem;
@@ -321,7 +321,7 @@ nav ul li a:hover {
   }
 }
 #produtos h3 {
-  margin-top: 70px;
+  margin-top: 80px;
   font-size: 1.3636363636rem;
   color: #64655b;
   text-transform: uppercase;
@@ -337,14 +337,15 @@ nav ul li a:hover {
 
 h4 {
   text-align: center;
-  font-size: 2.3076923077rem;
+  font-size: 1.6666666667rem;
+  margin-top: 1.5rem;
   margin-bottom: 20px;
   font-weight: 300;
   color: #566134;
 }
 
-p {
-  font-size: 1.2rem;
+.produto-p {
+  font-size: 1.3043478261rem;
   text-align: center;
   font-weight: 300;
   color: #566134;

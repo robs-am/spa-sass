@@ -2,7 +2,7 @@
 
 #produtos {
   h3 {
-    margin-top: 70px;
+    margin-top: 80px;
     font-size: $tamanho-do-texto / 2.2;
     color: $cor-secundaria;
     text-transform: uppercase;
@@ -19,16 +19,18 @@
   }
   h4 {
     text-align: center;
-    font-size: $tamanho-do-texto / 1.3;
+    font-size: $tamanho-do-texto / 1.8;
+    margin-top:1.5rem;
     margin-bottom: 20px;
     font-weight: 300;
     color: $cor-primaria;
   }
 
-  p {
-    font-size: $tamanho-do-texto / 2.5;
+  .produto-p {
+    font-size: $tamanho-do-texto / 2.3;
     text-align: center;
     font-weight: 300;
+    
     color: $cor-primaria;
     line-height: 2rem;
   }

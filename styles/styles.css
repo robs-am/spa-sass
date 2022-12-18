@@ -29,28 +29,36 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url(../../imagens/banner3.jpg) 100% no-repeat;
+  background: url(../../imagens/banner7.jpg) 100% no-repeat;
   min-height: 400px;
   background-size: cover;
+  background-position: bottom 40%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .banner .inner-banner {
+  display: flex;
   padding: 4em;
+  margin-left: 9em;
   border: 1px solid rgba(156, 155, 155, 0.103);
-  background-color: #e9f1ec;
-  background: linear-gradient(rgba(190, 189, 189, 0.312), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  /* background-color: $cor-terciaria;
+  background: linear-gradient(rgba(190, 189, 189, 0.312),rgba(255, 255, 255, 0.400), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
   border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 20px; */
 }
 .banner h1 {
-  font-size: 4rem;
-  color: #566134;
+  font-size: 5rem;
+  color: rgb(225, 219, 219);
+  margin-bottom: 1rem;
 }
 .banner h2 {
   font-size: 2rem;
-  color: #64655b;
+  color: #f8f8f8;
 }
 
 @media (max-width: 480px) {
@@ -101,7 +109,7 @@ nav ul li a:hover {
 #servicos .cards .card {
   width: 350px;
   text-align: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
   font-size: 1.3636363636rem;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
@@ -146,36 +154,36 @@ nav ul li a:hover {
 
 @media (max-width: 480px) {
   #servicos {
-    margin: 50px;
-  }
-  #servicos h3 {
-    text-align: center;
-    font-size: 1.6666666667rem;
-    margin-bottom: 80px;
-    font-weight: 300;
-    color: #566134;
+    margin: 40px;
   }
   #servicos h4 {
-    font-size: 1.3636363636rem;
+    font-size: 1.1111111111rem;
     color: #64655b;
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
-    margin: 1rem;
+    margin: 1.5rem;
+  }
+  #servicos h3 {
+    text-align: center;
+    font-size: 1.3636363636rem;
+    margin-bottom: 80px;
+    font-weight: 300;
+    color: #566134;
   }
   #servicos .cards {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     width: 100%;
   }
   #servicos .cards .card {
-    width: 350px;
+    width: 300px;
     text-align: center;
     padding-bottom: 1.5rem;
-    font-size: 1.1111111111rem;
+    font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.342);
     box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
     border-bottom-left-radius: 0.3rem;
@@ -186,14 +194,14 @@ nav ul li a:hover {
     box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
   }
   #servicos .cards .card h5 {
-    font-size: 2rem;
+    font-size: 1.6666666667rem;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
     color: #566134;
   }
   #servicos .cards .card p {
-    font-size: 1.3636363636rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #64655b;
     line-height: 2rem;
@@ -406,7 +414,7 @@ p {
 @media (max-width: 480px) {
   #produtos h3 {
     margin-top: 80px;
-    font-size: 1.5rem;
+    font-size: 1.1111111111rem;
     color: #64655b;
     text-transform: uppercase;
     font-weight: 400;
@@ -415,16 +423,16 @@ p {
   }
   #produtos h4 {
     text-align: center;
-    font-size: 1.5789473684rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
-    margin-inline: 2rem;
+    margin-inline: 2.5rem;
     font-weight: 300;
   }
   #produtos p {
-    font-size: 1.5rem;
+    font-size: 1.0344827586rem;
     line-height: 2rem;
     color: #64655b;
-    margin-inline: 1rem;
+    margin-inline: 2.5rem;
     text-align: center;
   }
   #produtos .img-slider-wrapper {
@@ -440,8 +448,7 @@ p {
     position: absolute;
   }
   #produtos .img-slider-wrapper .img-slider .slide img {
-    width: 375px;
-    height: 300px;
+    width: 350px;
   }
   #produtos .img-slider-wrapper .img-slider .slide .info {
     padding: 8px 15px;

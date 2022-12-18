@@ -27,8 +27,9 @@
 
     .card {
       width: 350px;
+      
       text-align: center;
-      padding-bottom: 1.5rem;
+      padding-bottom: 2rem;
       font-size: $tamanho-do-texto / 2.2;
 
       box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
@@ -80,37 +81,39 @@
 
 @media (max-width: 480px) {
   #servicos {
-    margin: 50px;
-    h3 {
-      text-align: center;
-      font-size: $tamanho-do-texto / 1.8;
-      margin-bottom: 80px;
-      font-weight: 300;
-      color: $cor-primaria;
-    }
+    margin: 40px;
     h4 {
-      font-size: $tamanho-do-texto / 2.2;
+      font-size: $tamanho-do-texto / 2.7;
       color: $cor-secundaria;
       text-transform: uppercase;
       font-weight: 400;
       text-align: center;
-      margin: 1rem;
+      margin: 1.5rem;
     }
 
+    h3 {
+      text-align: center;
+      font-size: $tamanho-do-texto / 2.2;
+      margin-bottom: 80px;
+      font-weight: 300;
+      color: $cor-primaria;
+    }
+   
     .cards {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       flex-direction: column;
 
-      gap: 3rem;
+      gap: 2rem;
       width: 100%;
 
       .card {
-        width: 350px;
+        width: 300px;
+       
         text-align: center;
         padding-bottom: 1.5rem;
-        font-size: $tamanho-do-texto / 2.7;
+        font-size: $tamanho-do-texto / 3;
         border: 1px solid rgba(255, 255, 255, 0.342);
         box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
         border-bottom-left-radius: 0.3rem;
@@ -121,14 +124,14 @@
           box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
         }
         h5 {
-          font-size: $tamanho-do-texto / 1.5;
+          font-size: $tamanho-do-texto / 1.8;
           font-weight: 300;
           margin-top: 25px;
           margin-bottom: 20px;
           color: $cor-primaria;
         }
         p {
-          font-size: $tamanho-do-texto / 2.2;
+          font-size: $tamanho-do-texto / 2.5;
           font-weight: 300;
           color: $cor-secundaria;
           line-height: 2rem;

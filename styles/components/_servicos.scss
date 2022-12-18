@@ -59,10 +59,20 @@
 
       .img-container {
         padding-bottom: 3px;
-        border-bottom: 2px solid $cor-secundaria;
+        
         img {
           max-width: 100%;
         }
+       
+      }
+      .btn-servico {
+        padding: 10px 30px;
+        border-radius: 40px;
+        margin-block: .75rem;
+        border-color: 1px solid;
+        border-color: $cor-secundaria;
+        background-color: $cor-terciaria;
+        cursor: pointer;
       }
     }
   }

@@ -130,10 +130,18 @@ nav ul li a:hover {
 }
 #servicos .cards .card .img-container {
   padding-bottom: 3px;
-  border-bottom: 2px solid #64655b;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
+}
+#servicos .cards .card .btn-servico {
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-block: 0.75rem;
+  border-color: 1px solid;
+  border-color: #64655b;
+  background-color: #e9f1ec;
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {

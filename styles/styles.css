@@ -339,8 +339,8 @@ nav ul li a:hover {
 h4 {
   text-align: center;
   font-size: 1.6666666667rem;
-  margin-top: 1.5rem;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 30px;
   font-weight: 300;
   color: #566134;
 }
@@ -349,6 +349,7 @@ h4 {
   font-size: 1.3043478261rem;
   text-align: center;
   font-weight: 300;
+  margin-inline: 2rem;
   color: #566134;
   line-height: 2rem;
 }
@@ -358,7 +359,7 @@ h4 {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 600px;
+  height: 820px;
 }
 .img-slider-wrapper .img-slider {
   display: flex;
@@ -366,13 +367,13 @@ h4 {
   justify-content: center;
 }
 .img-slider-wrapper .img-slider .slide {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   z-index: 1;
   position: absolute;
 }
 .img-slider-wrapper .img-slider .slide .produtoImagem {
-  width: 85%;
+  width: 100%;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
 }
@@ -409,16 +410,21 @@ h4 {
   background-color: #e9f1ec;
   cursor: pointer;
 }
-
-.navigation {
+.img-slider-wrapper .navigation {
   z-index: 2;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
-.navigation .ph-caret-circle-left-thin .right-thin {
+.img-slider-wrapper .navigation .flex {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+}
+.img-slider-wrapper .navigation .flex .prev-btn, .img-slider-wrapper .navigation .flex .next-btn {
   z-index: 999;
-  background-color: black;
+  font-size: 2em;
+  color: rgb(170, 213, 199);
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {

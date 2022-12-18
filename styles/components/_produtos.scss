@@ -19,8 +19,8 @@
 h4 {
   text-align: center;
   font-size: $tamanho-do-texto / 1.8;
-  margin-top: 1.5rem;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 30px;
   font-weight: 300;
   color: $cor-primaria;
 }
@@ -29,7 +29,7 @@ h4 {
   font-size: $tamanho-do-texto / 2.3;
   text-align: center;
   font-weight: 300;
-
+  margin-inline:2rem;
   color: $cor-primaria;
   line-height: 2rem;
 }
@@ -39,7 +39,7 @@ h4 {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 600px;
+  height: 820px;
 
   .img-slider {
     display: flex;
@@ -47,13 +47,13 @@ h4 {
     justify-content: center;
 
     .slide {
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       z-index: 1;
       position: absolute;
 
       .produtoImagem {
-        width: 85%;
+        width: 100%;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
         &:hover {
@@ -92,23 +92,33 @@ h4 {
       }
     }
   }
-
   
-}
-
 .navigation {
   z-index: 2;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-    .ph-caret-circle-left-thin .right-thin {
+ 
+  
+  
+  .flex {
+    display: flex;
+    width:750px;
+    justify-content: space-between;
+    .prev-btn, .next-btn {
       z-index:999;
-      background-color: black;
+      
+      font-size: 2em;
+      color:rgb(170, 213, 199);
+      background: rgba(255,255,255,0.5);
+      cursor: pointer;
       
     }
+  }
   
    
 }
+  
+}
+
 
 @media (max-width: 480px) {
   #produtos {

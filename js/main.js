@@ -1,3 +1,3 @@
-const nextBtn = document.querySelector('.next-btn');
-const prevBtn = document.querySelector('.prev-btn');
-const slideIcons = 
+import Glide, { Autoplay } from '@glidejs/glide/dist/glide.modular.esm'
+
+new Glide('.glide').mount({ Autoplay })

@@ -1,6 +1,11 @@
 @import "../abstract/variaveis";
 
 #produtos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
   h3 {
     margin-top: 80px;
     font-size: $tamanho-do-texto / 2.2;
@@ -32,6 +37,7 @@ h4 {
   margin-inline:2rem;
   color: $cor-primaria;
   line-height: 2rem;
+  max-width: 550px;
 }
 
 .img-slider-wrapper {

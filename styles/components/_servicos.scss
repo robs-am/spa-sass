@@ -1,9 +1,13 @@
 @import "../abstract/variaveis";
 
 #servicos {
-  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 70px;
   h4 {
-    font-size: $tamanho-do-texto / 2.2;
+    font-size: $tamanho-do-texto / 2;
     color: $cor-secundaria;
     text-transform: uppercase;
     font-weight: 400;
@@ -16,6 +20,10 @@
     margin-bottom: 80px;
     font-weight: 300;
     color: $cor-primaria;
+    margin-top: 0.5rem;
+    max-width: 550px;
+    line-height: 1.8rem;
+    text-align: center;
   }
 
   .cards {
@@ -27,7 +35,7 @@
 
     .card {
       width: 350px;
-      
+
       text-align: center;
       padding-bottom: 2rem;
       font-size: $tamanho-do-texto / 2.2;
@@ -41,7 +49,7 @@
         box-shadow: rgba(0, 0, 0, 0.307) 2px 10px 16px;
       }
       h5 {
-        font-size: $tamanho-do-texto / 1.2;
+        font-size: $tamanho-do-texto / 1.5;
         font-weight: 300;
         margin-top: 25px;
         margin-bottom: 15px;
@@ -60,16 +68,15 @@
 
       .img-container {
         padding-bottom: 3px;
-        
+
         img {
           max-width: 100%;
         }
-       
       }
       .btn-servico {
         padding: 10px 30px;
         border-radius: 40px;
-        margin-block: .75rem;
+        margin-block: 0.75rem;
         border-color: 1px solid;
         border-color: $cor-secundaria;
         background-color: $cor-terciaria;
@@ -98,7 +105,7 @@
       font-weight: 300;
       color: $cor-primaria;
     }
-   
+
     .cards {
       display: flex;
       justify-content: space-evenly;
@@ -110,7 +117,7 @@
 
       .card {
         width: 300px;
-       
+
         text-align: center;
         padding-bottom: 1.5rem;
         font-size: $tamanho-do-texto / 3;

@@ -1,70 +1,63 @@
-@import '../abstract/variaveis';
+@import "../abstract/variaveis";
 
 .banner {
   background: url(../../imagens/banner7.jpg) 100% no-repeat;
   min-height: 400px;
-  
-  background-size:cover;
+
+  background-size: cover;
   background-position: bottom 40%;
 
   display: flex;
   justify-content: flex-start;
-  align-items:center;
-  
- 
+  align-items: center;
+
   .inner-banner {
     display: flex;
-    padding:4em;
-    margin-left:9em;
-    border:1px solid rgba(156, 155, 155, 0.103);
+    padding: 4em;
+    margin-left: 9em;
+    border: 1px solid rgba(156, 155, 155, 0.103);
     display: flex;
-    align-items:left;
+    align-items: left;
     justify-content: left;
-    flex-direction: column;     
-    
+    flex-direction: column;
+
     /* background-color: $cor-terciaria;
     background: linear-gradient(rgba(190, 189, 189, 0.312),rgba(255, 255, 255, 0.400), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; */
-    
   }
-    h1{
-        font-size: 5rem;
-        color: rgb(225, 219, 219);
-        margin-bottom: 1rem;
-    }
-    h2{
-        font-size: 2rem;
-        color: #f8f8f8
-    }
-
+  h1 {
+    font-size: 5rem;
+    color: rgb(225, 219, 219);
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 2rem;
+    color: #f8f8f8;
+  }
 }
 
 @media (max-width: 480px) {
   .banner {
-    background: url(../../imagens/banner3.jpg) 100% no-repeat;
+    background: url(../../imagens/banner7.jpg) 100% no-repeat;
     min-height: 200px;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items:center;
-   
+    justify-content: left;
+    align-items: center;
+
     .inner-banner {
-      padding:1em;
-      border:1px solid rgba(156, 155, 155, 0.103);
-            
-         
-      
+      padding: 1em;
+      border: 1px solid rgba(156, 155, 155, 0.103);
+      margin-left: 2rem;
     }
-      h1{
-          font-size: 2rem;
-          
-      }
-      h2{
-          font-size: 1rem;
-          color: $cor-secundaria;
-      }
-  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1rem;
+      color: #f8f8f8;
+    }
   }
-  
 }

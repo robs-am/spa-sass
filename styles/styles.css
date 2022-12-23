@@ -383,6 +383,7 @@ h4 {
   overflow-y: hidden;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 #items-wrapper #items .item {
   flex: none;

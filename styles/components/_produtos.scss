@@ -45,27 +45,23 @@ h4 {
   place-items: center;
   margin: 3rem;
   width: 50vw;
-  
 
- 
   #items {
     display: flex;
-    gap:1rem;
+    gap: 1rem;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 
     .item {
       flex: none;
       width: 50%;
-      scroll-snap-align:start;
+      scroll-snap-align: start;
 
       img {
         width: 100%;
         height: 100%;
-
-       
-        
       }
     }
   }

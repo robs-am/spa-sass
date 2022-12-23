@@ -1,31 +1,9 @@
 
 
-$(".slick-slider").slick({
-
-    // normal options...
-    infinite: false,
-  
-    // the magic
-    responsive: [{
-  
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          infinite: true
-        }
-  
-      }, {
-  
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          dots: true
-        }
-  
-      }, {
-  
-        breakpoint: 300,
-        settings: "unslick" // destroys slick
-  
-      }]
-  });
+document.querySelector("#items").addEventListener("wheel", event => {
+  if(event.deltaY > 0) {
+    event.target.scrollBy(300, 0)
+  } else {
+    event.target.scrollBy(-300, 0)
+  }
+})

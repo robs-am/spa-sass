@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@glidejs/glide": "^3.6.0"
+    "@glidejs/glide": "^3.6.0",
+    "slick-carousel": "^1.8.1"
   }
 }

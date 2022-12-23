@@ -44,28 +44,41 @@ h4 {
   display: grid;
   place-items: center;
   margin: 3rem;
-  width: 60vw;
+  width: 70vw;
 
   #items {
     display: flex;
     gap: 1rem;
     overflow-x: auto;
     overflow-y: hidden;
+
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-
+   
     .item {
       flex: none;
       width: 50%;
       scroll-snap-align: start;
-
+      position: relative;
       pointer-events: none;
 
+    
       img {
         width: 100%;
         height: 100%;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
+        
+      
+      }
+      .info {
+        position: absolute;
+        bottom: 8%;
+        left: 5%;
+      }
+      
       }
     }
   }
-}
+

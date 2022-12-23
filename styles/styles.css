@@ -374,7 +374,7 @@ h4 {
   display: grid;
   place-items: center;
   margin: 3rem;
-  width: 50vw;
+  width: 60vw;
 }
 #items-wrapper #items {
   display: flex;
@@ -384,11 +384,13 @@ h4 {
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 #items-wrapper #items .item {
   flex: none;
   width: 50%;
   scroll-snap-align: start;
+  pointer-events: none;
 }
 #items-wrapper #items .item img {
   width: 100%;

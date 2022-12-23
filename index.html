@@ -171,7 +171,15 @@
   <footer>Estilizado com Sass</footer>
 
 
-  <script src="/js/main.js"></script>
+  <script>
+    document.querySelector("#items").addEventListener("wheel", event => {
+  if(event.deltaY > 0) {
+    event.target.scrollBy(300, 0)
+  } else {
+    event.target.scrollBy(-300, 0)
+  }
+})
+  </script>
 
 </body>
 

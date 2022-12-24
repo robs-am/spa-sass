@@ -41,12 +41,13 @@
     min-height: 300px;
     background-size: cover;
     background-position: left;
+    
     display: flex;
     align-items:flex-end;
-    justify-content:left;
+    justify-content:center;
 
     .inner-banner {
-      margin-left: 2rem;
+      margin-left: 1rem;
       
   
       /* background-color: $cor-terciaria;

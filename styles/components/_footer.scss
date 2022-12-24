@@ -1,0 +1,10 @@
+@import '../abstract/_variaveis.scss';
+
+footer {
+    text-align: center;
+    font-size: $tamanho-do-texto / 2;
+    border-top: 2px solid $cor-primaria;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    background-color: #f2f4f2;
+}

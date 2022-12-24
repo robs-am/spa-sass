@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-
+  background-color: #d7ded7;
   h3 {
     margin-top: 80px;
     font-size: $tamanho-do-texto / 2.2;
@@ -45,6 +45,8 @@ h4 {
   place-items: center;
   margin: 3rem;
   width: 70vw;
+  
+ 
 
   &::-webkit-scrollbar-thumb {
     visibility: visible;
@@ -121,4 +123,8 @@ h4 {
       }
     }
   }
+}
+
+@media (max-width: 480px) {
+
 }

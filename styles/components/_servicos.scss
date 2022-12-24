@@ -60,7 +60,7 @@
         padding-inline: 2rem;
       }
       p {
-        font-size: $tamanho-do-texto / 2.3;
+        font-size: $tamanho-do-texto / 2.5;
         font-weight: 300;
         color: $cor-secundaria;
         line-height: 2rem;
@@ -73,6 +73,7 @@
 
         img {
           width:100%;
+         
           
         }
       }
@@ -83,11 +84,15 @@
         border-color: 1px solid;
         border-color: $cor-secundaria;
         background-color: $cor-terciaria;
+        
         cursor: pointer;
+        &:hover {
+          background-color: #daece0;
+          transition: .3 ease-in-out;
+          border-color: $cor-primaria;
+        }
           
-          &:hover {
-            backdrop-filter: saturate(80%);
-          }
+         
       }
     }
   }

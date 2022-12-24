@@ -114,12 +114,14 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   gap: 35px;
-  width: 100%;
+  width: 90%;
+  height: 50%;
 }
 #servicos .cards .card {
-  width: 350px;
+  width: 50%;
+  height: 500px;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 1.3636363636rem;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
@@ -150,16 +152,20 @@ nav ul li a:hover {
   padding-bottom: 3px;
 }
 #servicos .cards .card .img-container img {
-  max-width: 100%;
+  width: 100%;
 }
 #servicos .cards .card .btn-servico {
   padding: 10px 30px;
   border-radius: 40px;
-  margin-block: 0.75rem;
+  margin-block: 1rem;
   border-color: 1px solid;
   border-color: #64655b;
   background-color: #e9f1ec;
   cursor: pointer;
+}
+#servicos .cards .card .btn-servico:hover {
+  -webkit-backdrop-filter: saturate(80%);
+          backdrop-filter: saturate(80%);
 }
 
 @media (max-width: 480px) {
@@ -376,6 +382,9 @@ h4 {
   margin: 3rem;
   width: 70vw;
 }
+#items-wrapper::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
 #items-wrapper #items {
   display: flex;
   overflow-x: auto;
@@ -384,6 +393,22 @@ h4 {
       scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+  /* show scrollbar when hover items-wrapper */
+}
+#items-wrapper #items::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+}
+#items-wrapper #items::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+#items-wrapper #items::-webkit-scrollbar-thumb {
+  background-color: rgb(219, 217, 217);
+  /* hide scrollbar*/
+  visibility: hidden;
+}
+#items-wrapper #items::-webkit-scrollbar-thumb {
+  visibility: visible;
 }
 #items-wrapper #items .item {
   flex: none;
@@ -402,9 +427,8 @@ h4 {
   position: absolute;
   bottom: 5%;
   left: 5%;
-  background-color: rgba(199, 203, 184, 0.878);
-  -webkit-backdrop-filter: blur(95%);
-          backdrop-filter: blur(95%);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   border-radius: 0.2rem;
   padding: 1rem;
 }

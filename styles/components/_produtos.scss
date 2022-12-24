@@ -46,57 +46,79 @@ h4 {
   margin: 3rem;
   width: 70vw;
 
+  &::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+
   #items {
     display: flex;
-    
+
     overflow-x: auto;
     overflow-y: hidden;
 
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
+
+        &::-webkit-scrollbar {
+          height: 10px;
+          width: 8px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background: rgba(0, 0, 0, 0);
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: rgb(219, 217, 217);
+          /* hide scrollbar*/
+          visibility: hidden;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+          visibility: visible;
+        }
+    
+
    
+
+    /* show scrollbar when hover items-wrapper */
+   
+    
     .item {
       flex: none;
       width: 50%;
       scroll-snap-align: start;
       position: relative;
       pointer-events: none;
-    
+
       img {
         width: 90%;
         height: 100%;
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2.6px;
-
-        
-        
-      
       }
       .info {
         position: absolute;
         bottom: 5%;
         left: 5%;
-        background-color: rgba(199, 203, 184, 0.878);
-        backdrop-filter: blur(95%);
+        backdrop-filter: blur(15px);
+
         border-radius: 0.2rem;
         padding: 1rem;
 
         h2 {
           font-size: $tamanho-do-texto / 1.2;
-          font-weight:600;
+          font-weight: 600;
           letter-spacing: 2px;
           color: $cor-terciaria;
-         
         }
         p {
           margin-top: 0.3rem;
           font-size: $tamanho-do-texto / 2.5;
-          color:$cor-terciaria; 
+          color: $cor-terciaria;
         }
-      }
-      
       }
     }
   }
-
+}

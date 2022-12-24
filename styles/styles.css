@@ -2,6 +2,7 @@ html,
 body {
   font-family: "EB Garamond", sans-serif;
   background: #e9e9e9;
+  overflow-x: hidden;
 }
 
 nav {
@@ -65,7 +66,6 @@ nav ul li a:hover {
     background: url(../../imagens/banner10.png) 100% no-repeat;
     min-height: 300px;
     background-size: cover;
-    background-position: left;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -92,7 +92,6 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   margin-block: 30px;
-  width: 100%;
 }
 #servicos h4 {
   font-size: 1.5rem;

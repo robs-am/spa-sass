@@ -1,11 +1,12 @@
 @import "../abstract/variaveis";
 
 #produtos {
+  border: 1px solid rgb(226, 226, 226);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  background-color: #d7ded7;
+  background-color: #e4e5e4;
   h3 {
     margin-top: 80px;
     font-size: $tamanho-do-texto / 2.2;

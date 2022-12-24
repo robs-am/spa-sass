@@ -1,7 +1,7 @@
 html,
 body {
   font-family: "EB Garamond", sans-serif;
-  background: #f6f7f6;
+  background: #e9e9e9;
 }
 
 nav {
@@ -93,7 +93,6 @@ nav ul li a:hover {
   justify-content: center;
   margin-block: 30px;
   width: 100%;
-  background-color: #f2f4f2;
 }
 #servicos h4 {
   font-size: 1.5rem;
@@ -127,6 +126,7 @@ nav ul li a:hover {
   text-align: center;
   padding-bottom: 1rem;
   font-size: 1.3636363636rem;
+  background-color: #e7e9e7;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
@@ -342,11 +342,12 @@ nav ul li a:hover {
   }
 }
 #produtos {
+  border: 1px solid rgb(226, 226, 226);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  background-color: #d7ded7;
+  background-color: #e4e5e4;
 }
 #produtos h3 {
   margin-top: 80px;

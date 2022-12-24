@@ -7,7 +7,6 @@
   justify-content: center;
   margin-block: 30px;
   width: 100%;
-  background-color: #f2f4f2;
   
   h4 {
     font-size: $tamanho-do-texto / 2;
@@ -44,6 +43,7 @@
       text-align: center;
       padding-bottom: 1rem;
       font-size: $tamanho-do-texto / 2.2;
+      background-color: #e7e9e7;
 
       box-shadow: rgba(0, 0, 0, 0.1) 1px 6px 12px;
       border-bottom-left-radius: 0.3rem;

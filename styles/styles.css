@@ -116,13 +116,12 @@ nav ul li a:hover {
 #servicos .cards {
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 45px;
   width: 90%;
   height: 50%;
 }
 #servicos .cards .card {
-  width: 50%;
-  height: 500px;
+  width: 25%;
   text-align: center;
   padding-bottom: 1rem;
   font-size: 1.3636363636rem;
@@ -156,7 +155,8 @@ nav ul li a:hover {
   padding-bottom: 3px;
 }
 #servicos .cards .card .img-container img {
-  width: 100%;
+  width: 340px;
+  height: 250px;
 }
 #servicos .cards .card .btn-servico {
   padding: 10px 30px;
@@ -347,7 +347,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  background-color: #e4e5e4;
+  background-color: #e2e5e2;
 }
 #produtos h3 {
   margin-top: 80px;

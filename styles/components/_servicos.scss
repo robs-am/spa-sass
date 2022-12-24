@@ -31,14 +31,14 @@
   .cards {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 45px;
 
     width: 90%;
     height: 50%;
 
     .card {
-      width: 50%;
-      height:500px;
+      width: 25%;
+      
 
       text-align: center;
       padding-bottom: 1rem;
@@ -75,7 +75,8 @@
         padding-bottom: 3px;
 
         img {
-          width:100%;
+          width:340px;
+          height: 250px;
          
           
         }

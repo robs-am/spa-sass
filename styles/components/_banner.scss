@@ -11,15 +11,9 @@
   justify-content: flex-start;
   align-items: flex-end;
 
-    
-
   .inner-banner {
     margin-left: 9rem;
     margin-bottom: 6rem;
-
-    border: 1px solid rgba(156, 155, 155, 0.103);
-
-    
 
     /* background-color: $cor-terciaria;
     background: linear-gradient(rgba(190, 189, 189, 0.312),rgba(255, 255, 255, 0.400), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
@@ -43,25 +37,32 @@
 
 @media (max-width: 480px) {
   .banner {
-    background: url(../../imagens/banner7.jpg) 100% no-repeat;
-    min-height: 200px;
+    background: url(../../imagens/banner10.png) 100% no-repeat;
+    min-height: 300px;
     background-size: cover;
+    background-position: left;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    align-items:flex-end;
+    justify-content:left;
 
     .inner-banner {
-      padding: 1em;
-      border: 1px solid rgba(156, 155, 155, 0.103);
       margin-left: 2rem;
+      
+  
+      /* background-color: $cor-terciaria;
+      background: linear-gradient(rgba(190, 189, 189, 0.312),rgba(255, 255, 255, 0.400), rgba(255, 255, 255, 0.223), rgba(189, 12, 12, 0));
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px; */
     }
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
     h2 {
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: #f8f8f8;
     }
   }
 }
+
+
